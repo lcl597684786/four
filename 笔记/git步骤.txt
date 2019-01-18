@@ -1,0 +1,74 @@
+创建自己仓库：
+1 、远程仓库               
+2 、创建本地仓库                   git init 
+3 、建立代码缓存                   git add .
+4 、把缓存的代码提交到本地仓库中  git commit -m "提交首页"
+5 、本地仓库与远程仓库关联    
+git remote add origin https://github.com/MARSRU/baudi.git
+
+6 、 把本地仓库的内容提交的远程仓库
+git push -u origin master
+
+
+
+
+再次提交代码： 
+
+1 、缓存代码                     git add .
+    
+2 、把缓存的代码提交到本地仓库中  git commit -m "第二次提交"
+
+3 、 把远程仓库的内容拉到本地     git pull
+
+4 、 再次提交远程仓库 ，在提交之前一定要看一下，代码有没冲突
+     ，如果有冲突，先改掉冲突 在提交，  git push
+
+
+
+拉取别人的代码：
+
+1  、  初始化本地仓库   git init
+
+2  、 与别人的远程仓库管理 
+  git pull https://github.com/dgw13753147926/GY-furniture.git
+
+拉取完别人代码要提交了 
+
+1 、 git add .    git status
+
+2 、 git commit -m ""
+
+3  、git remote add origin https://github.com/MARSRU/baudi.git
+
+4 、 git push -u origin master
+
+
+
+
+//配置密钥网址
+https://www.cnblogs.com/superGG1990/p/6844952.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
